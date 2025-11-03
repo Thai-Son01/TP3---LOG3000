@@ -24,4 +24,4 @@ Ce projet est une application web simple de calculatrice développée avec Flask
 
 ---
 
-Cette organisation permet de séparer clairement la logique backend (Python) des ressources frontend (HTML, CSS, JS).
+Cette organisation permet de séparer clairement la logique backend (Python) des ressources frontend (HTML, CSS).

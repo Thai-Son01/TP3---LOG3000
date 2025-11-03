@@ -1,41 +1,34 @@
 <a id="readme-top"></a>
-## Calculatrice web
-Repo de l'équipe 51
+# Calculatrice Web Flask  
+**Projet de l'équipe 51**
 
-## Objectifs
+---
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Description
 
-### Prérequis
+Cette application web est une calculatrice simple développée avec Flask.  
+Elle permet d'effectuer des opérations arithmétiques de base (addition, soustraction, multiplication, division) via une interface utilisateur intuitive.  
+Le projet vise à démontrer la création d’une application web dynamique en Python.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+---
 
-### Installation
+## Guide d’installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Suivez ces étapes pour installer et lancer l'application localement :
+
+1. **Cloner le dépôt :**
+
+```sh
+git clone https://github.com/votre-utilisateur/votre-repo.git
+cd votre-repo
+
+2. **(Optionnel) Créer et activer un environnement virtuel :**
+     ```sh
+     python -m venv venv
+     venv/Scripts/activate
+     ```
+
+3. **Installer Flask :**
+
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+   pip install Flask
