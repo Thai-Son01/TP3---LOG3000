@@ -24,10 +24,24 @@ cd votre-repo
 ```
 2. **(Optionnel) Créer et activer un environnement virtuel :**
 ```sh
-     python -m venv venv
-     venv/Scripts/activate
+python -m venv venv
+venv/Scripts/activate
 ```
 3. **Installer Flask :**
 ```sh
-   pip install Flask
+pip install Flask
+```
+## Guide d’utilisation
+1. **Aller dans le répertoire de l'application**
 ```sh
+cd flask_app
+```
+2. **Rouler le serveur dans un terminal et ouvrir le lien**
+```sh
+python -m flask --app ./flask_app/app run
+```
+
+
+## Guide de tests
+
+## Contribution
