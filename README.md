@@ -38,5 +38,4 @@ This is an example of how to list things you need to use the software and how to
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
