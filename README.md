@@ -21,14 +21,13 @@ Suivez ces étapes pour installer et lancer l'application localement :
 ```sh
 git clone https://github.com/votre-utilisateur/votre-repo.git
 cd votre-repo
-
+```
 2. **(Optionnel) Créer et activer un environnement virtuel :**
-     ```sh
+```sh
      python -m venv venv
      venv/Scripts/activate
-     ```
-
+```
 3. **Installer Flask :**
-
-   ```sh
+```sh
    pip install Flask
+```sh
