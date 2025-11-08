@@ -42,13 +42,13 @@ def multiply(a, b):
 
 def divide(a, b):
     """
-    Effectue une division entière du paramètre a par le paramètre b et retourne le résultat.
+    Effectue une division flottante du paramètre a par le paramètre b et retourne le résultat.
 
     Paramètres:
         a: Le dividende.
         b: Le diviseur.
 
     Retourne:
-        Le quotient entier de a divisé par b.
+        Le quotient de a divisé par b.
     """
-    return a // b
+    return a / b
