@@ -12,6 +12,8 @@ Ce projet est une application web simple de calculatrice développée avec Flask
 - `templates/`  
   Ce dossier contient les fichiers HTML utilisés par Flask pour rendre les pages web. Ici se trouve notamment le fichier `index.html`, qui sert de page principale de l'application.
 
+- `tests/`  
+  Ce dossier contient les tests unitaires pour l'application.
 ---
 
 ## Fichiers Python
