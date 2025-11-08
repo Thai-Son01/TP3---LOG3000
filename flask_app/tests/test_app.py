@@ -2,6 +2,10 @@ import unittest
 from flask_app.app import calculate, app
 
 class TestCalculate(unittest.TestCase):
+    """
+    Classe de tests pour la fonction `calculate`.
+    Vérifie le calcul correct des expressions et la gestion des erreurs.
+    """
 
     def test_addition(self):
         self.assertEqual(calculate("2 + 3"), 5)
@@ -21,7 +25,10 @@ class TestCalculate(unittest.TestCase):
 
 
 class TestFlaskRoutes(unittest.TestCase):
-
+    """
+    Classe de tests pour les routes Flask de l'application.
+    Vérifie le fonctionnement des requêtes GET et POST, ainsi que la gestion des erreurs.
+    """
     def setUp(self):
         self.client = app.test_client()
         self.client.testing = True
