@@ -2,7 +2,11 @@ import unittest
 from flask_app.operators import add, subtract, multiply, divide
 
 class TestOperators(unittest.TestCase):
-
+    """
+    Classe de tests pour les fonctions d'opérations arithmétiques.
+    Vérifie le bon fonctionnement de add, subtract, multiply et divide, 
+    ainsi que la gestion des erreurs (division par zéro).
+    """
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
         self.assertEqual(add(-1, 5), 4)
