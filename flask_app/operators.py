@@ -23,7 +23,7 @@ def subtract(a, b):
     Retourne:
         La différence entre a et b.
     """
-    return b - a
+    return a - b
 
 
 def multiply(a, b):
