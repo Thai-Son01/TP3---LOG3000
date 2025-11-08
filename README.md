@@ -45,8 +45,6 @@ cd flask_app
 python -m flask --app ./flask_app/app run
 ```
 
-## Guide d'utilisation
-
 - **Calcul d'un résultat :**  
   Cliquez, dans l'ordre, sur un nombre, un opérateur, un deuxième nombre, puis sur le bouton **"="** à la fin.
 
